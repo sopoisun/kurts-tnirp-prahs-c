@@ -21,6 +21,8 @@ namespace Sample_Print_Struk
         private DataRow row;
         private DataTable table = new DataTable();
         PrintDocument printdocument1 = new PrintDocument();
+        private string _txt = "";
+        private int _length = 0;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -90,11 +92,17 @@ namespace Sample_Print_Struk
             e.Graphics.DrawString(text, objFont, Brushes.Black, fLeftMargin, fTopMargin);
             fTopMargin += objFont.GetHeight() * (float)1.5;//skip two lines
 
-            text = String.Format("          {0, -1} {1, 9} {2, 12}", "Tax", ":", "200.000");
+            this._txt = " 10%";
+            this._length = 9 - _txt.Length;
+
+            text = String.Format("          {0, -1} {1, "+this._length+"} {2, 12}", "Tax"+this._txt, ":", "200.000");
             e.Graphics.DrawString(text, objFont, Brushes.Black, fLeftMargin, fTopMargin);
             fTopMargin += objFont.GetHeight() * (float)1.5;//skip two lines
 
-            text = String.Format("          {0, -1} {1, 3} {2, 12}", "Tax Bayar", ":", "60.000");
+            this._txt = " 4%";
+            this._length = 5 - _txt.Length;
+
+            text = String.Format("          {0, -1} {1, "+this._length+"} {2, 12}", "Tax Byr"+this._txt, ":", "60.000");
             e.Graphics.DrawString(text, objFont, Brushes.Black, fLeftMargin, fTopMargin);
             fTopMargin += objFont.GetHeight() * (float)1.5;//skip two lines
 
@@ -183,6 +191,14 @@ namespace Sample_Print_Struk
             {
                 MessageBox.Show("Input harus angka !!!");
             }            
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                this.button2_Click(null, null);
+            }
         }
     }
 }
