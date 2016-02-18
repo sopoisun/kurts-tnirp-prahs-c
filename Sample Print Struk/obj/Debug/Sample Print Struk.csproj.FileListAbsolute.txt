@@ -1,0 +1,8 @@
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\bin\Debug\Sample Print Struk.exe
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\bin\Debug\Sample Print Struk.pdb
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\obj\Debug\Sample_Print_Struk.Properties.Resources.resources
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\obj\Debug\Sample Print Struk.csproj.GenerateResource.Cache
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\obj\Debug\Sample Print Struk.exe
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\obj\Debug\Sample Print Struk.pdb
+C:\Users\Rizal Afani\Documents\Visual Studio 2008\Projects\Sample Print Struk\Sample Print Struk\obj\Debug\Sample_Print_Struk.MainForm.resources
